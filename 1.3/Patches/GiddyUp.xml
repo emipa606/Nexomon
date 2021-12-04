@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Giddy-up! Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName="Arctivore"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.CustomStatsPatch">
+              <speedModifier>1.5</speedModifier>
+              <armorModifier>1</armorModifier>
+              <useMetalArmor>false</useMetalArmor>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName="Carnagrius"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.CustomStatsPatch">
+              <speedModifier>1.2</speedModifier>
+              <armorModifier>1</armorModifier>
+              <useMetalArmor>false</useMetalArmor>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName="Voltaic"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.CustomStatsPatch">
+              <speedModifier>1.5</speedModifier>
+              <armorModifier>1</armorModifier>
+              <useMetalArmor>false</useMetalArmor>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName="Omnicron"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.CustomStatsPatch">
+              <speedModifier>1.5</speedModifier>
+              <armorModifier>1</armorModifier>
+              <useMetalArmor>false</useMetalArmor>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName="Mystogen"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.CustomStatsPatch">
+              <speedModifier>1.25</speedModifier>
+              <armorModifier>1</armorModifier>
+              <useMetalArmor>false</useMetalArmor>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName = "Voltaic"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.DrawingOffsetPatch">
+              <eastOffsetCSV>0.11,-0.10,-0.24</eastOffsetCSV>
+              <westOffsetCSV>-0.11,-0.10,-0.24</westOffsetCSV>
+              <northOffsetCSV>0,0,0</northOffsetCSV>
+              <southOffsetCSV>0,0,-0.50</southOffsetCSV>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName = "Mystogen"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.DrawingOffsetPatch">
+              <eastOffsetCSV>0.20,-1,1</eastOffsetCSV>
+              <westOffsetCSV>-0.20,-1,1</westOffsetCSV>
+              <northOffsetCSV>0,0,1</northOffsetCSV>
+              <southOffsetCSV>0,0,1.10</southOffsetCSV>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName = "Omnicron"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.DrawingOffsetPatch">
+              <eastOffsetCSV>0,0,0</eastOffsetCSV>
+              <westOffsetCSV>0,0,0</westOffsetCSV>
+              <northOffsetCSV>0,0,0</northOffsetCSV>
+              <southOffsetCSV>0,0,-0.60</southOffsetCSV>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName = "Arctivore"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.DrawingOffsetPatch">
+              <eastOffsetCSV>0.30,0,0</eastOffsetCSV>
+              <westOffsetCSV>-0.30,0,0</westOffsetCSV>
+              <northOffsetCSV>0,0,0</northOffsetCSV>
+              <southOffsetCSV>0,0,-0.50</southOffsetCSV>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName = "Abaddog"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.DrawingOffsetPatch">
+              <eastOffsetCSV>0,0,-0.20</eastOffsetCSV>
+              <westOffsetCSV>0,0,-0.20</westOffsetCSV>
+              <northOffsetCSV>0,0,0</northOffsetCSV>
+              <southOffsetCSV>0,0,-0.30</southOffsetCSV>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName = "Raamu"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.DrawingOffsetPatch">
+              <eastOffsetCSV>0,0,0</eastOffsetCSV>
+              <westOffsetCSV>0,0,0</westOffsetCSV>
+              <northOffsetCSV>0,0,-0.70</northOffsetCSV>
+              <southOffsetCSV>0,0,0</southOffsetCSV>
+            </li>
+          </value>
+        </li>
+        <li Class="PatchOperationAddModExtension">
+          <xpath>/Defs/ThingDef[defName = "Carnagrius"]</xpath>
+          <value>
+            <li Class="GiddyUpCore.DrawingOffsetPatch">
+              <eastOffsetCSV>0,-0.10,-0.35</eastOffsetCSV>
+              <westOffsetCSV>0,-0.10,-0.35</westOffsetCSV>
+              <northOffsetCSV>0,0,-0.60</northOffsetCSV>
+              <southOffsetCSV>0,0,-0.50</southOffsetCSV>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

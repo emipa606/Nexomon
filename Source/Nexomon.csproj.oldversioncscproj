@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBF993F2-C2A2-445D-A670-73729E26B369}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nexomon</RootNamespace>
+    <AssemblyName>Nexomon</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Assemblies\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>C:\Users\Léonard\Desktop\Rimworld Moddind\HarmonyRimWorld\Release\net472\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DefOf\SitePartDefOf.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipGenerator.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipDoor.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipLoot.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipBattery.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShip.cs" />
+    <Compile Include="Gen\GenStep_NexomonShip.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipDebris.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipCockpit.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonCryptosleep.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipLeftWing.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipRightWing.cs" />
+    <Compile Include="Gen\SymbolResolver_NexomonShipEngineRoom.cs" />
+    <Compile Include="Incident\IncidentWorker_NexomonShip.cs" />
+    <Compile Include="Misc\DeathActionWorker_IncredibleExplosion.cs" />
+    <Compile Include="Misc\HeddifCompPropreties_JoinHealed.cs" />
+    <Compile Include="Misc\HeddifComp_JoinHealed.cs" />
+    <Compile Include="Patch\Patch_PawnTick.cs" />
+    <Compile Include="Patch\Patch_Bond.cs" />
+    <Compile Include="Patch\Patch_Heal.cs" />
+    <Compile Include="Incident\IncidentWorker_OmnicronPasses.cs" />
+    <Compile Include="DefOf\PawnKindDefOf.cs" />
+    <Compile Include="DefOf\HediffDefOf.cs" />
+    <Compile Include="DefOf\ThoughtDefOf.cs" />
+    <Compile Include="DefOf\ThingDefOf.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShipLoot\NexomonShipLootDef.cs" />
+    <Compile Include="ShipLoot\NexomonShipLootUtility.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

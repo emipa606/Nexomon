@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="SculptureBase">
+    <defName>ClassicSculptureNexomon</defName>
+    <label>nexomon sculpture</label>
+    <description>A nexomon sculpture sized to dominate a room.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/NexomonClassic</texPath>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <size>(2,2)</size>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Beauty>150</Beauty>
+      <Mass>18</Mass>
+      <WorkToMake>30000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>200</costStuffCount>
+  </ThingDef>
+  <ThingDef ParentName="SculptureBase">
+    <defName>LegendarySculptureNexomon</defName>
+    <label>legendary nexomon sculpture</label>
+    <description>A legendary nexomon sculpture sized to dominate a room.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Buildings/Art/NexomonLegendary</texPath>
+      <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>false</rotatable>
+    <size>(2,2)</size>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Beauty>250</Beauty>
+      <Mass>21</Mass>
+      <WorkToMake>48000</WorkToMake>
+    </statBases>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>300</costStuffCount>
+  </ThingDef>
+</Defs>

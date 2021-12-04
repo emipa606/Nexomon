@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SitePartDef>
+    <defName>NexomonShip</defName>
+    <label>Crashsite</label>
+    <description>this crashed ship was transporting something valuable.</description>
+    <siteTexture>Site/NexomonShip</siteTexture>
+    <expandingIconTexture>Site/NexomonShipExpended</expandingIconTexture>
+    <forceExitAndRemoveMapCountdownDurationDays>15</forceExitAndRemoveMapCountdownDurationDays>
+  </SitePartDef>
+  <GenStepDef>
+    <defName>NexomonShip</defName>
+    <linkWithSite>NexomonShip</linkWithSite>
+    <order>1000</order>
+    <genStep Class="Nexomon.GenStep_NexomonShip">
+    </genStep>
+  </GenStepDef>
+</Defs>

@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Scales_Draclone</defName>
+    <label>draclone scales</label>
+    <description>Draclone scales offer great protection against heat and blunt, but offers little protection against guns. Also keeps you very cool during the summer.</description>
+    <graphicData>
+      <texPath>Things/Resource/DracloneScales</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <color>(41,182,246)</color> -->
+    </graphicData>
+    <statBases>
+      <MarketValue>6.2</MarketValue>
+      <StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>1.2</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+      <Mass>0.028</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(41,182,246)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>0</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>0.5</Beauty>
+        <Flammability>0.2</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolBoltusk</defName>
+    <label>boltusk wool</label>
+    <description>Boltusk wool keeps you warm during the winter, but offers little protection in combat.</description>
+    <graphicData>
+      <color>(150,140,110)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.4</MarketValue>
+      <StuffPower_Armor_Sharp>0.35</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+      <Mass>0.040</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(150,140,110)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>6</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.5</Beauty>
+        <Flammability>0.5</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="WoolBase">
+    <defName>WoolRaamu</defName>
+    <label>raamu wool</label>
+    <description>Raamu wool keeps you very warm during the winter, but offers little protection in combat.</description>
+    <graphicData>
+      <color>(255,220,150)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.8</MarketValue>
+      <StuffPower_Armor_Sharp>0.30</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.15</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.2</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>40</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+      <Mass>0.040</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(255,220,150)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>6</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.5</Beauty>
+        <Flammability>0.5</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Jeeta</defName>
+    <label>Jeeta leather</label>
+    <description>Jeeta leather offers great protection against heat, and is beautiful to look at.</description>
+    <graphicData>
+      <color>(255,235,59)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(255,235,59)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>4</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.5</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Boltusk</defName>
+    <label>Boltusk leather</label>
+    <description>Boltusk leather offers good protection in combat, and is beautiful to look at.</description>
+    <graphicData>
+      <color>(150,140,110)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.35</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(150,140,110)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>5</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.25</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Fuzztino</defName>
+    <label>Fuzztino leather</label>
+    <description>Fuzztino leather protects you well against both high and low temperatures, but is somewhat limited in combat.</description>
+    <graphicData>
+      <color>(244,143,177)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.5</MarketValue>
+      <StuffPower_Armor_Sharp>0.8</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(244,143,177)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>2</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Raamu</defName>
+    <label>Raamu leather</label>
+    <description>Raamu leather offers good protection against gunfire and heat. It's also bautiful to look at.</description>
+    <graphicData>
+      <color>(255,220,150)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.5</MarketValue>
+      <StuffPower_Armor_Sharp>1.2</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.35</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(255,220,150)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>5</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.25</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Arctivore</defName>
+    <label>Arctivore leather</label>
+    <description>Arctivore leather offers good protection in combat, and very good protection against both high and low temperates. It's also exceptionally beautiful to look at. This leather has been used for furniture for generations.</description>
+    <graphicData>
+      <color>(38,50,56)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.5</MarketValue>
+      <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.35</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(38,50,56)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>7</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.5</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Carnagrius</defName>
+    <label>Carnagrius leather</label>
+    <description>Carnagrius leather offers good protection in combat, and good protection against both high and low temperates. It's also exceptionally beautiful to look at. This leather has been used for furniture for generations.</description>
+    <graphicData>
+      <color>(255,145,0)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>8.0</MarketValue>
+      <StuffPower_Armor_Sharp>1.3</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>25</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(255,145,0)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>8</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.5</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Abaddog</defName>
+    <label>Abaddog leather</label>
+    <description>Abaddog leather offers good protection against heat and gunfire, and is pretty to look at.</description>
+    <graphicData>
+      <color>(93,64,55)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.5</MarketValue>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.3</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>2.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>12</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(93,64,55)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>3</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Omnicron</defName>
+    <label>Omnicron leather</label>
+    <description>Omnicron leather is highly valuable and very beautiful to look at. Anything built or crafted with this leather will have a massive beauty rating.</description>
+    <graphicData>
+      <color>(179,136,255)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <StuffPower_Armor_Sharp>1.35</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.45</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(179,136,255)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>8</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.75</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Voltaic</defName>
+    <label>Voltaic leather</label>
+    <description>Voltaic leather doesn't protect very well in combat or against temperature, but it's beautiful to look at.</description>
+    <graphicData>
+      <color>(253,253,102)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>5.5</MarketValue>
+      <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(253,253,102)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>7</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.5</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Mystogen</defName>
+    <label>Mystogen leather</label>
+    <description>Mystogen leather is very pretty to look at. It's decent against temperature and for combat.</description>
+    <graphicData>
+      <color>(20,41,63)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+      <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.4</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+      <Mass>0.035</Mass>
+      <Flammability>1</Flammability>
+    </statBases>
+    <stuffProps>
+      <color>(20,41,63)</color>
+      <commonality>0.025</commonality>
+      <statOffsets>
+        <Beauty>6</Beauty>
+      </statOffsets>
+      <statFactors>
+        <Beauty>1.40</Beauty>
+        <Flammability>1</Flammability>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

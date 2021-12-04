@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>OmnicronPasses</defName>
+    <label>omnicron pass</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Nexomon.IncidentWorker_OmnicronPasses</workerClass>
+    <baseChance>0.7</baseChance>
+    <minRefireDays>13</minRefireDays>
+    <earliestDay>20</earliestDay>
+  </IncidentDef>
+  <IncidentDef>
+    <defName>NexomonShip</defName>
+    <label>nexomon ship crash</label>
+    <category>GiveQuest</category>
+    <targetTags>
+      <li>World</li>
+    </targetTags>
+    <workerClass>Nexomon.IncidentWorker_NexomonShip</workerClass>
+    <letterLabel>Crashed nexomon ship</letterLabel>
+    <letterText>Colonists saw a ship crash not to far from here.  There might be valuable loot and maybe even some nexomon to capture. Beware, the ship might be guarded by survivors.</letterText>
+    <letterDef>PositiveEvent</letterDef>
+    <baseChance>1</baseChance>
+    <minRefireDays>25</minRefireDays>
+    <earliestDay>50</earliestDay>
+    <!-- <minRefireDays>25</minRefireDays> -->
+    <!-- <earliestDay>50</earliestDay> -->
+    <!-- <minPopulation>5</minPopulation> -->
+    <!-- <chanceFactorByPopulationCurve> -->
+    <!-- <points> -->
+    <!-- <li>(3,0)</li> -->
+    <!-- <li>(8,1)</li> -->
+    <!-- </points> -->
+    <!-- </chanceFactorByPopulationCurve> -->
+  </IncidentDef>
+</Defs>

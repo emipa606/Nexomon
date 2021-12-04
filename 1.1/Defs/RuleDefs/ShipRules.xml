@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RuleDef>
+    <defName>NexomonShip</defName>
+    <symbol>NexomonShip</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShip">
+        <minRectSize>(6, 6)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonCryptosleep</defName>
+    <symbol>NexomonCryptosleep</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonCryptosleep">
+        <minRectSize>(4, 3)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipDoor</defName>
+    <symbol>NexomonShipDoor</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipDoor">
+        <minRectSize>(1, 1)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipBattery</defName>
+    <symbol>NexomonShipBattery</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipBattery">
+        <minRectSize>(1, 1)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipGenerator</defName>
+    <symbol>NexomonShipGenerator</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipGenerator">
+        <minRectSize>(2, 2)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipLoot</defName>
+    <symbol>NexomonShipLoot</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipLoot">
+        <minRectSize>(2, 2)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipCockpit</defName>
+    <symbol>NexomonShipCockpit</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipCockpit">
+        <minRectSize>(2, 2)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipEngineRoom</defName>
+    <symbol>NexomonShipEngineRoom</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipEngineRoom">
+        <minRectSize>(2, 2)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipRightWing</defName>
+    <symbol>NexomonShipRightWing</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipRightWing">
+        <minRectSize>(2, 2)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipLeftWing</defName>
+    <symbol>NexomonShipLeftWing</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipLeftWing">
+        <minRectSize>(2, 2)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+  <RuleDef>
+    <defName>NexomonShipDebris</defName>
+    <symbol>NexomonShipDebris</symbol>
+    <resolvers>
+      <li Class="Nexomon.SymbolResolver_NexomonShipDebris">
+        <minRectSize>(1, 1)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+</Defs>

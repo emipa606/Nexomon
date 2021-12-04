@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>FuzztinoMood</defName>
+    <durationDays>0.01</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>fuzztino mood</label>
+        <description>Fuzztino mood</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
