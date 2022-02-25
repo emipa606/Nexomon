@@ -5,7 +5,7 @@
 Update of RavenousEyes mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2241246944
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://i.imgur.com/CN9Rs5X.png)
 
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
@@ -88,10 +88,6 @@ Stormtail for custom sounds of every nexomon.
 ![Image](https://i.imgur.com/feGuNnY.png)
 
 https://rimworld-bestiary.fandom.com/wiki/Nexomon
-
-![Image](https://i.imgur.com/vEovpHq.png)
-
-https://discord.gg/HtsPKNF
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
